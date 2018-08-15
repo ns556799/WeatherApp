@@ -1,0 +1,9 @@
+.searchbar-form {
+  display: flex;
+  justify-content: center;
+  max-width: 650px;
+}
+
+.searchbar-form input {
+  width: 100%;
+}
