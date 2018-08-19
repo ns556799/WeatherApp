@@ -1,14 +1,14 @@
 .searchbar-form {
-    display: flex;
+    display: flex !important;
     justify-content: center;
-    max-width: 650px;
+    margin: 20px 0;
 }
 
 .searchbar-form input {
     width: 100%;
 }
 
-.weatherList__header{
+.weatherList__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,24 +24,42 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 15px 0;
 }
 
 .cityWeather__cityName {
     flex-basis: 33.33%;
     max-width: 33.33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
 }
 
 .cityWeather__cityTemp {
     flex-basis: 33.33%;
-    max-width: 33.33%
+    max-width: 33.33%;
+    padding: 5px;
+
 }
 
 .cityWeather__cityPressure {
     flex-basis: 33.33%;
-    max-width: 33.33%
+    max-width: 33.33%;
+    padding: 5px;
+
 }
 
 .cityWeather__cityHumidity {
     flex-basis: 33.33%;
-    max-width: 33.33%
+    max-width: 33.33%;
+    padding: 5px;
+}
+
+.googlemap__container {
+    max-height: 250px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
