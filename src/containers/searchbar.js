@@ -31,7 +31,7 @@ class SearchBar extends Component {
         <input
           value={this.state.term}
           onChange={this.onInputChange.bind(this)}
-          placeholder="Get a 5-day forecast for your favourite city"
+          placeholder=" Get a 5-day forecast for your favourite city "
           type="text"
         />
         <span className="input-group-btn">
