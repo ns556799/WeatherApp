@@ -1,9 +1,47 @@
 .searchbar-form {
-  display: flex;
-  justify-content: center;
-  max-width: 650px;
+    display: flex;
+    justify-content: center;
+    max-width: 650px;
 }
 
 .searchbar-form input {
-  width: 100%;
+    width: 100%;
+}
+
+.weatherList__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.weatherList__header div {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.cityWeather__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cityWeather__cityName {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.cityWeather__cityTemp {
+    flex-basis: 33.33%;
+    max-width: 33.33%
+}
+
+.cityWeather__cityPressure {
+    flex-basis: 33.33%;
+    max-width: 33.33%
+}
+
+.cityWeather__cityHumidity {
+    flex-basis: 33.33%;
+    max-width: 33.33%
 }
